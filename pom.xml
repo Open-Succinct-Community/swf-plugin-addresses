@@ -4,12 +4,12 @@
   <parent>
     <groupId>com.github.venkatramanm.swf-all</groupId>
     <artifactId>swf-all</artifactId>
-    <version>${revision}</version>
-    <relativePath>../swf-all/pom.xml</relativePath>
+    <version>2.8</version>
   </parent>
   <artifactId>swf-plugin-addresses</artifactId>
   <name>swf-plugin-addresses</name>
   <description>swf-plugin-addresses</description>
+  <version>2.8-SNAPSHOT</version>
 
   <url>http://maven.apache.org</url>
   <licenses>
@@ -38,7 +38,7 @@
   	<dependency>
         <groupId>${project.groupId}</groupId>
   		  <artifactId>swf-plugin-ecommerce</artifactId>
-        <version>${project.version}</version>
+        <version>${project.parent.version}</version>
   	</dependency>
   </dependencies>
 </project>
