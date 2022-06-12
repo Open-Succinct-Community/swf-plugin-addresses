@@ -37,8 +37,8 @@
   <dependencies>
   	<dependency>
         <groupId>${project.groupId}</groupId>
-  		  <artifactId>swf-plugin-ecommerce</artifactId>
-        <version>[${project.parent.version},)</version>
+  		<artifactId>swf-plugin-ecommerce</artifactId>
+        <version>[2.10,3.0)</version>
   	</dependency>
   </dependencies>
 </project>
